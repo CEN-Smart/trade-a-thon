@@ -24,7 +24,7 @@ type RootLayoutProps = {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
-      <body className={cn(` antialiased font-body `, inter.variable)}>
+      <body className={cn(` antialiased font-body`, inter.variable)}>
         <ChakraProviders>
           <Navbar />
           {children}
