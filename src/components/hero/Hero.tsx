@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-full md:w-1/2 rounded-md overflow-hidden">
           <picture>
             <img
-              src="/images/hero.jpg"
+              src="/images/hero.png"
               alt="Image of a lady learning from a laptop"
               className="w-auto h-auto object-cover"
             />
