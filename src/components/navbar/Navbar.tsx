@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <header
         className={cn(
-          `flex items-center justify-between md:px-4 lg:px-8  shadow-primary md:w-full  text-white bg-hero-pattern  py-4 md:py-0`
+          `flex items-center justify-between md:px-4 lg:px-8  shadow-primary w-full  text-white bg-hero-pattern fixed z-[97]  py-4 md:py-0`
         )}
       >
         {/* Logo to show on Desktop view */}
