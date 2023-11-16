@@ -4,6 +4,7 @@ import "./globals.css";
 import { ChakraProviders } from "@/providers/chakraprovider";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar/Navbar";
+import Hero from "@/components/hero/Hero";
 
 const inter = Inter({
   subsets: ["latin"],
