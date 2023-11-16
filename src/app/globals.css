@@ -79,6 +79,8 @@
   .nav__link {
     @apply transition-all duration-300 hover:bg-[#794BFF]/50 hover:font-semibold hover:tracking-wide md:hover:bg-transparent  md:hover:text-[#DDD73A]/70 pl-4 py-6 md:px-4;
   }
+
+  
 }
 
 .header {

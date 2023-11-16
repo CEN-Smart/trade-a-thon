@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);",
+          "linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);",
       },
       boxShadow: {
         primary: "0 15px 35px rgba(0 0 0/.15)",

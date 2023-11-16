@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <header
         className={cn(
-          `flex items-center justify-between md:px-4 lg:px-8 fixed w-full z-[97]   text-white bg-hero-pattern  py-4 md:py-0`
+          `flex items-center justify-between md:px-4 lg:px-8  shadow-primary md:w-full  text-white bg-hero-pattern  py-4 md:py-0`
         )}
       >
         {/* Logo to show on Desktop view */}
@@ -76,7 +76,7 @@ export default function Navbar() {
         {/* Nav Links */}
         <nav
           className={cn(
-            `flex flex-col pt-10 md:pt-0 inset-0 absolute  top-[4.5rem] md:top-0 bottom-0 min-h-screen md:min-h-fit md:bg-transparent z-[99] w-[70%] md:w-fit transform md:translate-x-0 transition duration-300 md:relative md:flex-row md:flex md:space-x-4 bg-[#385FBA]/90`,
+            `flex flex-col pt-10 md:pt-0 inset-0 absolute  top-[4.5rem] md:top-0 bottom-0 min-h-screen md:min-h-fit z-[99] w-[70%] md:w-fit transform md:translate-x-0 transition duration-300 md:relative md:flex-row md:flex md:space-x-4 bg-hero-pattern md:bg-none`,
             {
               "translate-x-0": isMenuOpen,
               "-translate-x-full": !isMenuOpen,
@@ -104,7 +104,7 @@ export default function Navbar() {
             hidden: isMenuOpen,
           })}
         >
-          <GiHamburgerMenu className="text-[#FFF]" size={24} />
+          <GiHamburgerMenu className=" text-[#FFF]" size={24} />
         </span>
       </header>
     </>

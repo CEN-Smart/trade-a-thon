@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <Container className="flex lg:w-1/2 w-full -mt-[4rem] items-start overflow-x-scroll gap-2 justify-between lg:-mt-[5.5rem] z-30 py-4 relative">
+      <Container className="flex lg:w-1/2 w-full -mt-[4rem] items-start overflow-x-auto gap-2 justify-between lg:-mt-[5.5rem] z-30 py-4 relative">
         <NumCard count={`60,000`} title="Hours content" icon={TbClockHour3} />
         <NumCard count={`1,000,000`} title="Students" icon={IoIosPeople} />
         <NumCard count={`110`} title="Countries" icon={FaGlobeAsia} />
