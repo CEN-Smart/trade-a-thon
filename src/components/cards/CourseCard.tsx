@@ -42,14 +42,14 @@ const CourseCard = ({ image, heading, detail }: CourseCardProps) => {
       <CardFooter>
         <ButtonGroup className="flex items-center justify-between w-full">
           <p className="flex items-center gap-2">
-            <p className="bg-[#794BFF] rounded-full inline-flex items-center justify-center w-fit p-1 ">
+            <p className="bg-purple-700 rounded-full inline-flex items-center justify-center w-fit p-1 ">
               <IoIosPlay size={16} className="text-[#FFF] " />
             </p>
             <span className="ml-1 font-[600]">12x Lessons</span>
           </p>
-          <Button className="bg-[#794BFF] text-white hover:bg-purple-600 transition duration-300 rounded-xl">
-            4.9 <TiStar size={24} className="ml-1 text-yellow-400" />
-          </Button>
+          <button className="bg-purple-700 flex items-center px-4 py-1 text-white hover:bg-purple-600 transition duration-300 rounded-xl">
+            <span>4.9</span> <TiStar size={24} className="ml-1 text-yellow-400" />
+          </button>
         </ButtonGroup>
       </CardFooter>
     </Card>

@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Trade a thon",
   description:
     "An App that gives you the best educational experience in trading",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 type RootLayoutProps = {
